@@ -1,0 +1,37 @@
+npm init
+{
+  "name": "crmgraphqlcurso",
+  "version": "1.0.0",
+  "description": "Curso de GraphQl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Echeverri",
+  "license": "ISC"
+}
+//DEPENDENCIAS:
+npm i apollo-server
+npm i -D nodemon
+npm i mongoose dotenv bcryptjs jsonwebtoken
+
+// creamos index.js
+// scripts star y dev (package)
+"scripts": {
+        "start": "node .",
+        "dev": "nodemon ."
+    },
+
+//VAMOS A EDITAR INDEX (Configuramos el servidor)
+
+
+## CONCEPTOS DE GraphQl ##
+Query read
+Mutations create, update, delete
+Schema: define 
+Resolvers
+
+
+// PARA HASHEAR
+
+
